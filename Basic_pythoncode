@@ -1,0 +1,5 @@
+def decimal_to_binary(n):
+    if n < 0:
+        return "Invalid input"
+    return bin(n).replace("0b", "")
+
